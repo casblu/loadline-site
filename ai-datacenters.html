@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b14">
+<title>AI Data Center Tracker — Loadline (draft)</title>
+<meta name="description" content="Map and table of the largest AI data centers: operator, location precision, status, estimated capacity, chips, power and water, each field with a source and date.">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dc.css">
+<link rel="stylesheet" href="aidc.css">
+</head><body>
+<header class="nav"><a class="brand" href="index.html"><span class="logo"></span><span>Load<b>line</b></span></a>
+<nav><a href="index.html" class="keep">Home</a><a href="data-centers.html" class="keep">Transparency</a><a href="#map" class="keep">Map</a><a href="#table">Table</a><a href="#how" class="pill">How live?</a></nav></header>
+
+<section class="hero dchero"><div class="wrap hero-in">
+<p class="eyebrow">AI Data Centers · Tracker · Draft v0.1</p>
+<h1>Where are the <span class="grad">AI data centers,</span> and what is their status?</h1>
+<p class="lead">A map and table of the largest AI campuses, with operator, location, status, estimated capacity, chips, power and water. Every field shows its source and date. Unknowns say "not disclosed".</p>
+<div class="chips"><span class="chip warn">Status is only as live as the sources</span><span class="chip" id="lastchk">Last checked: …</span></div>
+<div class="aidc-sum" id="sum"></div>
+<p class="tiny" id="src"></p>
+</div></section>
+
+<section class="sec" id="map"><div class="wrap">
+<div class="banner warn2"><b>Read this first.</b> Most capacity, chip, water and status figures here are <b>estimates by Epoch AI</b> from satellite imagery, permits and company statements. They are not company-reported numbers, and are labelled as estimates on every site. Company statements we verified by hand appear separately as "company-reported". Map pins marked <i>town-level</i> are placed at the town, not the building.</div>
+<div class="tools"><input id="q" type="search" placeholder="Search site, operator, city…" aria-label="Search"><select id="fs" aria-label="Status"></select><select id="fc" aria-label="Region"><option value="">All regions</option><option value="US">United States</option><option value="INT">Outside US</option></select><span class="tiny" id="cnt"></span></div>
+<div class="legend"><span><i style="background:#3ddc97"></i>operating</span><span><i style="background:#4da3ff"></i>partially operating</span><span><i style="background:#ffd166"></i>under construction</span><span><i style="background:#93a0bd"></i>announced</span><span><i style="background:#ff6b7a"></i>paused / cancelled</span><span>pin size ∝ estimated IT MW</span></div>
+<div id="aimap" role="application" aria-label="Map of AI data centers"></div>
+</div></section>
+
+<section class="sec alt" id="table"><div class="wrap">
+<p class="eyebrow">Table</p><h2>All tracked sites</h2>
+<p class="tiny">Tap a row or a pin for every field with its source URL, "as of" date and fetched time. Click column headers to sort. "est." = Epoch AI estimate; "proj." = Epoch's projected maximum, not a reported figure.</p>
+<div class="tw"><table class="ai"><thead><tr><th data-k="name">Site</th><th data-k="op">Operator</th><th data-k="loc">Location · precision</th><th data-k="st">Status · as of</th><th data-k="mw">IT power now</th><th data-k="pj">Projected max</th></tr></thead><tbody id="tb"></tbody></table></div>
+<div id="detail" hidden></div>
+</div></section>
+
+<section class="sec" id="how"><div class="wrap">
+<p class="eyebrow">How live is this?</p><h2>What updates itself, and what does not</h2>
+<div class="two">
+<div class="brief"><h3>Automatic (every 6 hours)</h3><p>A scheduled GitHub Action re-downloads Epoch AI's open CSVs, rebuilds <a href="data/ai-datacenters.json">data/ai-datacenters.json</a>, geocodes any new address, and stamps each field with a fetched time. ERCOT's public grid dashboard is refreshed hourly (system-wide, not per data center).</p></div>
+<div class="brief"><h3>Only as live as Epoch</h3><p>Epoch updates its dataset itself, roughly weekly, from satellite imagery and filings. Our status labels are derived from the latest dated row of Epoch's timeline, so a change in the real world shows up only after Epoch records it. "As of" is the date of that observation, not today.</p></div>
+<div class="brief"><h3>Manual</h3><p>Company statements, paused/cancelled status and corrections are added by hand with a source. Nothing about a company is inferred. See <a href="data/ai-dc-manual.json">data/ai-dc-manual.json</a>. <b>See a change?</b> <a href="https://github.com/casblu/loadline-site/issues/new?template=report-update.yml" target="_blank" rel="noopener">Report an update (public GitHub issue, source required) ↗</a></p></div>
+</div>
+<h3 class="h2s">Sources</h3>
+<ul class="tiny">
+<li><a href="https://epoch.ai/data/data-centers" target="_blank" rel="noopener">Epoch AI, Frontier Data Centers hub</a>, CC BY 4.0: owners, users, addresses, timelines, IT power, chips, water estimates, energy companies and each site's cited sources. Please credit Epoch AI and its authors.</li>
+<li><a href="https://nominatim.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap Nominatim</a> (© OpenStreetMap contributors, ODbL): geocoding of Epoch's addresses into map coordinates; map tiles © OpenStreetMap.</li>
+<li><a href="https://openai.com/index/five-new-stargate-sites/" target="_blank" rel="noopener">OpenAI Stargate announcement</a>, <a href="https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live" target="_blank" rel="noopener">Crusoe Abilene release</a>, <a href="https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster" target="_blank" rel="noopener">Amazon Project Rainier</a>: hand-verified company statements.</li>
+<li><a href="https://www.ercot.com/gridmktinfo/dashboards" target="_blank" rel="noopener">ERCOT dashboards</a>: system-wide Texas grid demand: <span id="ercot">…</span></li>
+</ul>
+<h3 class="h2s">Limits</h3>
+<ul class="tiny"><li>Epoch covers the largest sites (roughly 44% of global AI compute by its own estimate), not every data center.</li><li>Capacity is IT power in MW, not total facility power. Epoch says 80% of estimates fall within about 1.4x, compute within 1.5x.</li><li>Utility/grid-queue (ERCOT, PJM) large-load data, state filings and SEC filings are not machine-readable here yet, so power source is "not disclosed" unless Epoch lists an energy company.</li><li>Pins are geocoded from address text and can be wrong; the precision label says how good the match is.</li><li>Nobody has been contacted for this tracker.</li></ul>
+</div></section>
+<footer><div class="wrap">Loadline is a working name. Draft for discussion; not investment, legal or engineering advice. <span style="opacity:.6">A SIVYIS Corp initiative</span> · <a href="index.html">Back to Loadline</a> · <a href="data-centers.html">Transparency scorecard</a></div></footer>
+<script src="vendor/leaflet.js"></script>
+<script src="aidc.js"></script>
+</body></html>

@@ -1,0 +1,25 @@
+name: ai-datacenters
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: ai-datacenters
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild data/ai-datacenters.json from Epoch AI (CC BY 4.0) + cached geocodes
+        run: python3 scripts/build_ai_datacenters.py
+      - name: Link check (manual runs, and Mondays 00-05 UTC)
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$(date -u +%u)" = "1" ] && [ "$(date -u +%H)" -lt 6 ]; }; then python3 scripts/check_links.py || true; fi
+      - name: Commit if changed
+        run: |
+          git config user.name "loadline-bot"
+          git config user.email "loadline-bot@users.noreply.github.com"
+          git add data/ai-datacenters.json data/geocode-cache.json data/link-check.json
+          # 'last checked' (fetched_at) changes every run, so this commits each run; that is the intended freshness stamp
+          git diff --staged --quiet || (git commit -m "data: AI data centers refresh $(date -u +%FT%TZ)" && git pull --rebase && git push)

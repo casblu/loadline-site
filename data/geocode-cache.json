@@ -1,0 +1,1112 @@
+{
+ "5420 Tulane Rd, Memphis, TN 38109": {
+  "lat": 34.9979829,
+  "lon": -90.0348674,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "xAI Macrohard Colossus 2, 5420, Tulane Road, Scaife, Memphis, Shelby County, West Tennessee, Tennessee, 38109, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "1435 Hwy 54 W, Fayetteville, GA 30214": {
+  "lat": 33.4453541,
+  "lon": -84.5254819,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "1435, Highway 54 West, Fayetteville, Fayette County, Georgia, 30214, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "55001 Larrison Blvd, New Carlisle, IN 46552": {
+  "none": true
+ },
+ "New Carlisle, Indiana, United States": {
+  "lat": 41.7056871,
+  "lon": -86.5098231,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "New Carlisle, Saint Joseph County, Indiana, 46552, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "4581 Webb St, Pryor, OK 74361": {
+  "lat": 36.2411721,
+  "lon": -95.3300473,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "4581, Webb Street, Mid-America Industrial Park, Lusta, Pryor Creek, Mayes County, Oklahoma, 74361, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Johor Bahru, Johor, Malaysia": {
+  "lat": 1.4581986,
+  "lon": 103.7649059,
+  "class": "place",
+  "type": "city",
+  "addresstype": "city",
+  "display": "Johor Bahru, Johor, 80730, Malaysia",
+  "geocoded_on": "2026-10-15"
+ },
+ "1 Community Cir, New Albany, OH 43054": {
+  "none": true
+ },
+ "New Albany, Ohio, United States": {
+  "lat": 40.0811745,
+  "lon": -82.8087864,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "New Albany, Plain Township, Franklin County, Ohio, 43054, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "5502 Spinks Rd, Abilene, TX 79601": {
+  "lat": 32.4942321,
+  "lon": -99.8009071,
+  "class": "highway",
+  "type": "residential",
+  "addresstype": "road",
+  "display": "Spinks Road, Abilene, Taylor County, Texas, 79603, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "HP79+MP, 81300 Johor Bahru, Johor, Malaysia": {
+  "none": true
+ },
+ "HP79+MP, 81300 Johor Bahru, Johor, Malaysia, Kempas, Johor, Malaysia": {
+  "none": true
+ },
+ "Kempas, Johor, Malaysia": {
+  "lat": 1.5287669,
+  "lon": 103.7050522,
+  "class": "place",
+  "type": "suburb",
+  "addresstype": "suburb",
+  "display": "Kempas, Johor Bahru, Johor, 81200, Malaysia",
+  "geocoded_on": "2026-10-15"
+ },
+ "4800 90th St, Mount Pleasant, WI 53403": {
+  "lat": 42.6748722,
+  "lon": -87.8948822,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "4800, 90th Street, Mount Pleasant, Racine County, Wisconsin, 53403, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "5076 S High St, Columbus, OH 43207": {
+  "lat": 39.8614521,
+  "lon": -83.0039995,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "5076, South High Street, Columbus, Franklin County, Ohio, 43137, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "1101 Beech Rd SW, New Albany, OH 43054": {
+  "lat": 40.070051,
+  "lon": -82.754042,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "1101, Beech Road Southwest, New Albany, Jersey Township, Licking County, Ohio, 43054, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "3231 Riverport Rd, Memphis, TN 38109": {
+  "lat": 35.0735511,
+  "lon": -90.0873144,
+  "class": "highway",
+  "type": "secondary",
+  "addresstype": "road",
+  "display": "Riverport Road, Memphis, Shelby County, West Tennessee, Tennessee, 38109, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "10410 Bunge Ave, Council Bluffs, IA 51503": {
+  "lat": 41.1666499,
+  "lon": -95.7977408,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "10410, Bunge Avenue, Council Bluffs, Lewis Township, Pottawattamie County, Iowa, 51503, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "8171 Jim Christal Rd, Denton, TX 76207": {
+  "lat": 33.2192732,
+  "lon": -97.174715,
+  "class": "highway",
+  "type": "unclassified",
+  "addresstype": "road",
+  "display": "Jim Christal Road, Denton, Denton County, Texas, 76203, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "6000 Technology Blvd, Sandston, VA 23150": {
+  "lat": 37.4888273,
+  "lon": -77.24749,
+  "class": "building",
+  "type": "industrial",
+  "addresstype": "building",
+  "display": "6000, Technology Boulevard, Sandston, Henrico County, Virginia, 23150, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Bridge Data Centres, Sedenak Tech Park, Johor, Malaysia": {
+  "none": true
+ },
+ "Bridge Data Centres, Sedenak Tech Park, Johor, Malaysia, Kulai, Johor, Malaysia": {
+  "none": true
+ },
+ "Kulai, Johor, Malaysia": {
+  "lat": 1.6666667,
+  "lon": 103.6,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "district",
+  "display": "Kulai, Johor, Malaysia",
+  "geocoded_on": "2026-10-15"
+ },
+ "1772-2396 145th St, Rosemount, MN 55068, USA": {
+  "none": true
+ },
+ "Rosemount, Minnesota, United States": {
+  "lat": 44.7391873,
+  "lon": -93.12611,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Rosemount, Dakota County, Minnesota, 55068, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Amazon Data Services Inc, Madison Mega Site Nissan Parkway and Highway 22 Canton, Mississippi Madison County": {
+  "none": true
+ },
+ "Canton, Mississippi, United States": {
+  "lat": 32.612602,
+  "lon": -90.0367512,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Canton, Madison County, Mississippi, 39046, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "13001 Rollins Ford Road, Bristow, VA 20136": {
+  "none": true
+ },
+ "Bristow, Virginia, United States": {
+  "lat": 38.7311636,
+  "lon": -77.5480241,
+  "class": "place",
+  "type": "town",
+  "addresstype": "town",
+  "display": "Bristow, Prince William County, Virginia, 20136, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "14250 W Broadway Rd, Goodyear, AZ 85338": {
+  "lat": 33.4089905,
+  "lon": -112.3647996,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "PHX-11, 14250, West Broadway Road, Goodyear, Maricopa County, Arizona, 85338, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "500 8th St, Jeffersonville, IN 47130, USA": {
+  "lat": 38.279131,
+  "lon": -85.739009,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "500, East 8th Street, Port Fulton, Jeffersonville, Clark County, Indiana, 47130, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Kansas City, Missouri, United States": {
+  "lat": 39.100105,
+  "lon": -94.5781416,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Kansas City, Jackson County, Missouri, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "2310 Eberhardt Rd, Temple, TX 76504": {
+  "lat": 31.1259599,
+  "lon": -97.3598178,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "2310, Eberhardt Road, Temple, Bell County, Texas, 76504, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "13360 Miller Rd NW": {
+  "lat": 40.1158074,
+  "lon": -82.7395358,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "13360, Miller Road Northwest, Jersey Township, Licking County, Ohio, 43031, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "11110 State St, Omaha, NE 68142": {
+  "lat": 41.3356809,
+  "lon": -96.0523625,
+  "class": "highway",
+  "type": "tertiary",
+  "addresstype": "road",
+  "display": "State Street, Omaha, Union Precinct, Douglas County, Nebraska, 68007, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "5475 Cloud Ct, Lincoln, NE 68514": {
+  "lat": 40.907472,
+  "lon": -96.6457832,
+  "class": "highway",
+  "type": "unclassified",
+  "addresstype": "road",
+  "display": "Cloud Court, Lincoln, Lancaster County, Nebraska, 68514, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "6030–6070 Technology Blvd, Sandston, VA 23150": {
+  "none": true
+ },
+ "Sandston, Virginia, United States": {
+  "lat": 37.5107225,
+  "lon": -77.3115564,
+  "class": "boundary",
+  "type": "census",
+  "addresstype": "census",
+  "display": "Sandston, Henrico County, Virginia, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "3500 River Rd, The Dalles, OR": {
+  "lat": 45.6253889,
+  "lon": -121.2023887,
+  "class": "highway",
+  "type": "tertiary",
+  "addresstype": "road",
+  "display": "River Road, The Dalles, Wasco County, Oregon, 97058, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "3525–3543 Portugee Rd, Sandston, VA 23150": {
+  "none": true
+ },
+ "Co Rd 42, Montgomery, AL 36105, USA": {
+  "none": true
+ },
+ "Montgomery, Alabama, United States": {
+  "lat": 32.3777111,
+  "lon": -86.3090775,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Montgomery, Montgomery County, Alabama, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "601 Kuna Mora Rd,  Kuna ID 83634": {
+  "lat": 43.4592072,
+  "lon": -116.4211106,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "601, West Kuna Mora Road, Kuna, Ada County, Idaho, 83634, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Cheyenne, WY 82007, USA": {
+  "lat": 41.139981,
+  "lon": -104.820246,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Cheyenne, Laramie County, Wyoming, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "1626 County Line Road Ridgeland, Mississippi": {
+  "lat": 32.4000327,
+  "lon": -90.1971708,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "1626, West County Line Road, Lakeover, Jackson, Hinds County, Mississippi, 39213, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "5400 Prosperity Dr NW, Toney, AL": {
+  "none": true
+ },
+ "5400 Prosperity Dr NW, Toney, AL, Huntsville, Alabama, United States": {
+  "none": true
+ },
+ "Huntsville, Alabama, United States": {
+  "lat": 34.729847,
+  "lon": -86.5859011,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Huntsville, Madison County, Alabama, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "984 County Road 112, Afton, TX 79220": {
+  "none": true
+ },
+ "Afton, Texas, United States": {
+  "lat": 33.7628599,
+  "lon": -100.8168001,
+  "class": "place",
+  "type": "hamlet",
+  "addresstype": "hamlet",
+  "display": "Afton, Dickens County, Texas, 79220, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "5855 SW Kerry St, Cumming, IA 50061": {
+  "none": true
+ },
+ "Cumming, Iowa, United States": {
+  "lat": 41.4833235,
+  "lon": -93.7624442,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "village",
+  "display": "Cumming, Linn Township, Warren County, Iowa, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "1275 N Community Cir, Eagle Mountain, UT 84005": {
+  "none": true
+ },
+ "Eagle Mountain, Utah, United States": {
+  "lat": 40.3093488,
+  "lon": -112.0119825,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Eagle Mountain, Utah County, Utah, 84005, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "3250 Railport Parkway, Midlothian, TX 76065": {
+  "lat": 32.438927,
+  "lon": -97.0507991,
+  "class": "highway",
+  "type": "residential",
+  "addresstype": "road",
+  "display": "Railport Parkway, Midlothian, Ellis County, Texas, 76084, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Clark, Nevada, United States": {
+  "lat": 36.3467726,
+  "lon": -115.090737,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "county",
+  "display": "Clark County, Nevada, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "105 Whiley Rd, Lancaster, OH 43130": {
+  "lat": 39.7270407,
+  "lon": -82.6831433,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "105, Whiley Road Southwest, Lancaster, Hocking Township, Fairfield County, Ohio, 43130, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "4755 NE Huffman St, Hillsboro, OR 97124": {
+  "lat": 45.5588758,
+  "lon": -122.9296051,
+  "class": "building",
+  "type": "industrial",
+  "addresstype": "building",
+  "display": "QTS Data Center - Hillsboro 2, 4755, Northeast Huffman Street, North Hillsboro, Hillsboro, Washington County, Oregon, 97124, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Land at Maxwell's Farm West, Great Cambridge Road, Cheshunt, EN8 8XH": {
+  "none": true
+ },
+ "Cheshunt, Hertfordshire, United Kingdom": {
+  "lat": 51.702052,
+  "lon": -0.0335908,
+  "class": "place",
+  "type": "town",
+  "addresstype": "town",
+  "display": "Cheshunt, Broxbourne, Hertfordshire, England, EN8 8LQ, United Kingdom",
+  "geocoded_on": "2026-10-15"
+ },
+ "Bayin, Ulanqab, China": {
+  "lat": 41.6241526,
+  "lon": 112.6325011,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "巴音乡, 察哈尔右翼中旗 ᠴᠠᠬᠠᠷ ᠪᠠᠷᠠᠭᠤᠨ ᠭᠠᠷᠤᠨ ᠳᠤᠮᠳᠠᠳᠤ ᠬᠣᠰᠢᠭᠤ, 乌兰察布市 ᠤᠯᠠᠭᠠᠨᠴᠠᠪ ᠬᠣᠲᠠ, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 013500, 中国",
+  "geocoded_on": "2026-10-15"
+ },
+ "42575 Arcola Blvd, Sterling, VA 20166": {
+  "none": true
+ },
+ "Arcola, Virginia, United States": {
+  "lat": 38.9441265,
+  "lon": -77.5379082,
+  "class": "boundary",
+  "type": "census",
+  "addresstype": "census",
+  "display": "Arcola, Loudoun County, Virginia, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "330 Austin Blvd, Red Oak, TX 75154": {
+  "lat": 32.5376266,
+  "lon": -96.7966747,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "330, North Austin Boulevard, Red Oak, Ellis County, Texas, 75154, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "14651-15249 Gold Coast Rd 68138 Papillion Nebraska, USA": {
+  "none": true
+ },
+ "14651-15249 Gold Coast Rd 68138 Papillion Nebraska, USA, Papillion\\n, Nebraska, United States": {
+  "none": true
+ },
+ "Papillion\\n, Nebraska, United States": {
+  "lat": 41.1544433,
+  "lon": -96.0422378,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Papillion, Sarpy County, Nebraska, 68046, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "1 Meta Lp, Gallatin, TN 37066": {
+  "none": true
+ },
+ "4250 Messenger Lp, Los Lunas, NM 87031": {
+  "lat": 34.8301645,
+  "lon": -106.7838267,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "Meta, 4250, Messenger Loop Northwest, Meta Los Lunas Data Center, Los Lunas, Valencia County, New Mexico, 87031, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "9685 87th Ave SE, Ellendale, ND 58436": {
+  "lat": 46.0102576,
+  "lon": -98.5686907,
+  "class": "highway",
+  "type": "unclassified",
+  "addresstype": "road",
+  "display": "87th Avenue Southeast, Ellendale Township, Dickey County, North Dakota, 58436, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "14436-14998 Fairview Rd, Springfield, NE 68059, USA": {
+  "none": true
+ },
+ "Springfield, Nebraska, United States": {
+  "lat": 41.0818396,
+  "lon": -96.1310942,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Springfield, Sarpy County, Nebraska, 68059, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Huawei, Horinger, China": {
+  "none": true
+ },
+ "Huawei, Horinger, China, Hohhot, Inner Mongolia, China": {
+  "none": true
+ },
+ "Hohhot, Inner Mongolia, China": {
+  "lat": 40.8184528,
+  "lon": 111.6601939,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "呼和浩特市, 内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ, 中国",
+  "geocoded_on": "2026-10-15"
+ },
+ "1401 Meadowville Technology Parkway, Chester, VA": {
+  "none": true
+ },
+ "Chester, Virginia, United States": {
+  "lat": 37.3489475,
+  "lon": -77.438379,
+  "class": "boundary",
+  "type": "census",
+  "addresstype": "census",
+  "display": "Chester, Chesterfield County, Virginia, 23831, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Batam, Riau Islands, Indonesia": {
+  "lat": 1.1030815,
+  "lon": 104.0383696,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Batam, Kepulauan Riau, Indonesia",
+  "geocoded_on": "2026-10-15"
+ },
+ "1125 Electron Ave, Berwick, PA 18603": {
+  "lat": 41.0838485,
+  "lon": -76.1435333,
+  "class": "building",
+  "type": "industrial",
+  "addresstype": "building",
+  "display": "Amazon AWS PHL, 1125, Electron Avenue, Berwick, Luzerne County, Pennsylvania, 18603, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "155 Palmer Ln, Marble, NC 28905": {
+  "lat": 35.1849883,
+  "lon": -83.9141225,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "155, Palmer Lane, Marble, Cherokee County, North Carolina, 28905, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "7601 State Hwy 105, Trenton, SC 29847, USA": {
+  "none": true
+ },
+ "7601 State Hwy 105, Trenton, SC 29847, USA, Aiken, South Carolina, United States": {
+  "none": true
+ },
+ "Aiken, South Carolina, United States": {
+  "lat": 33.5723191,
+  "lon": -81.6182086,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "county",
+  "display": "Aiken County, South Carolina, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Wuhu, China": {
+  "lat": 31.1800568,
+  "lon": 118.2141777,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "region",
+  "display": "芜湖市, 安徽省, 中国",
+  "geocoded_on": "2026-10-15"
+ },
+ "7725 Lake Rd, Barker, NY 14012": {
+  "lat": 43.3586546,
+  "lon": -78.604128,
+  "class": "building",
+  "type": "industrial",
+  "addresstype": "building",
+  "display": "7725, Lake Road, Town of Somerset, Niagara County, New York, 14012, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "15000 Lambda Drive, San Antonio, TX 78245": {
+  "none": true
+ },
+ "San Antonio, Texas, United States": {
+  "lat": 29.4246002,
+  "lon": -98.4951405,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "San Antonio, Bexar County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "9590 Hornbaker Rd, Manassas, VA 20109": {
+  "lat": 38.7458055,
+  "lon": -77.5377246,
+  "class": "building",
+  "type": "data_center",
+  "addresstype": "building",
+  "display": "STACK, 9590, Hornbaker Road, Manassas, Prince William County, Virginia, 20109, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "3963 S Lincoln Ave, Vineland, New Jersey": {
+  "lat": 39.4281986,
+  "lon": -75.0184088,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "3963, South Lincoln Avenue, Clayville, Vineland, Cumberland County, New Jersey, 08361, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Stølevegen 39, 4715 Øvrebø, Norway": {
+  "lat": 58.257573,
+  "lon": 7.89205,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "39, Stølevegen, Vennesla, Agder, 4715, Norge",
+  "geocoded_on": "2026-10-15"
+ },
+ "Mantsala, Uusimaa, Finland": {
+  "lat": 60.6353444,
+  "lon": 25.3159266,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Mäntsälä, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland",
+  "geocoded_on": "2026-10-15"
+ },
+ "Melbourne, Victoria, Australia": {
+  "lat": -37.8142454,
+  "lon": 144.9631732,
+  "class": "place",
+  "type": "city",
+  "addresstype": "city",
+  "display": "Melbourne, Victoria, Australia",
+  "geocoded_on": "2026-10-15"
+ },
+ "2950 S. Litchfield Road": {
+  "lat": 33.4194907,
+  "lon": -112.3599884,
+  "class": "building",
+  "type": "warehouse",
+  "addresstype": "building",
+  "display": "Stream Data Centers PHX-1, 2950, South Litchfield Road, Goodyear, Maricopa County, Arizona, 85338, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "3545 Wiseman Boulevard, San Antonio, TX 78251": {
+  "lat": 29.4728631,
+  "lon": -98.681767,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "3545, Wiseman Boulevard, Westover Hills, San Antonio, Bexar County, Texas, 78251, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "14720 Omicron Dr, San Antonio, TX 78245": {
+  "lat": 29.4168571,
+  "lon": -98.7901875,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "Vantage TX11, 14720, Omicron Drive, San Antonio, Bexar County, Texas, 78245, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "2205 Industrial South Rd, Dalton, GA, 30721": {
+  "lat": 34.7134428,
+  "lon": -84.9521507,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "2205, Industrial South Road, Dalton, Whitfield County, Georgia, 30721, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Alibaba Zhangbei Yun Calculation Data Center, Zhangbei County, Zhangjiakou, Hebei, China, 076471": {
+  "none": true
+ },
+ "Zhangbei, Hebei, China": {
+  "lat": 41.287775,
+  "lon": 114.769295,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "district",
+  "display": "张北县, 张家口市, 河北省, 中国",
+  "geocoded_on": "2026-10-15"
+ },
+ "Start Campus - Sustainable Data Center Services, Sines, Portugal": {
+  "none": true
+ },
+ "Sines, Setúbal, Portugal": {
+  "lat": 37.956549,
+  "lon": -8.8689639,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Sines, Setúbal, Portugal",
+  "geocoded_on": "2026-10-15"
+ },
+ "1025 Jefferson Street NW, Atlanta, GA 30318": {
+  "lat": 33.7771892,
+  "lon": -84.4195499,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "QTS Atlanta Data Center 2, 1025, Jefferson Street Northwest, Bellwood, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Valhallarbraut 868, 262 Reykjanesbær, Iceland": {
+  "lat": 63.9769885,
+  "lon": -22.5754769,
+  "class": "building",
+  "type": "data_center",
+  "addresstype": "building",
+  "display": "Verne Gagnaver, 868, Valhallarbraut, Ásbrú, Keflavík, Reykjanesbær, Suðurnes, 262, Ísland",
+  "geocoded_on": "2026-10-15"
+ },
+ "Colorado City, Texas, United States": {
+  "lat": 32.3930337,
+  "lon": -100.86351,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Colorado City, Mitchell County, Texas, 79512, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "216 Greenfield Rd, Lancaster, PA": {
+  "lat": 40.0472199,
+  "lon": -76.2555314,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "216, Greenfield Road, East Lampeter Township, Lancaster County, Pennsylvania, 17601, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "1525 W 43rd St S, Muskogee, OK 74401, USA": {
+  "lat": 35.6967854,
+  "lon": -95.4951648,
+  "class": "highway",
+  "type": "residential",
+  "addresstype": "road",
+  "display": "West 43rd Street South, Beland, Muskogee County, Oklahoma, 74401, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Kvarnsvedsvägen 420, 784 66 Borlänge, Sweden": {
+  "lat": 60.5118082,
+  "lon": 15.419017,
+  "class": "highway",
+  "type": "tertiary",
+  "addresstype": "road",
+  "display": "Kvarnsvedsvägen, Yttermora, Nordanbäck, Borlänge, Borlänge kommun, Dalarnas län, 784 66, Sverige",
+  "geocoded_on": "2026-10-15"
+ },
+ "10001 Lima Rd, Claude, TX 79019": {
+  "none": true
+ },
+ "Claude, Texas, United States": {
+  "lat": 35.1081103,
+  "lon": -101.362741,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Claude, Armstrong County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "5800 EDGEWOOD RD SW CEDAR RAPIDS, IA 52404": {
+  "lat": 41.9221755,
+  "lon": -91.7156674,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "5800, Edgewood Road Southwest, Cedar Rapids, Linn County, Iowa, 52404, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "6015 Adams Center Road, Fort Wayne, IN 46806": {
+  "lat": 41.0309293,
+  "lon": -85.0536261,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "6015, Adams Center Road, Fort Wayne, Allen County, Indiana, 46816, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "12356 Middleton Pike, Bowling Green, OH 43402": {
+  "none": true
+ },
+ "Bowling Green, Ohio, United States": {
+  "lat": 41.3747744,
+  "lon": -83.6513229,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Bowling Green, Wood County, Ohio, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Holly Ridge, LA 71269": {
+  "lat": 32.4676421,
+  "lon": -91.6267883,
+  "class": "place",
+  "type": "hamlet",
+  "addresstype": "hamlet",
+  "display": "Holly Ridge, Richland Parish, Louisiana, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Bjerkvik, Narvik, Norway": {
+  "lat": 68.5491657,
+  "lon": 17.5571481,
+  "class": "place",
+  "type": "village",
+  "addresstype": "village",
+  "display": "Bjerkvik - Rahkka, Narvik, Nordland, 8530, Norge",
+  "geocoded_on": "2026-10-15"
+ },
+ "2300 Hallock Young Rd, Warren, OH 44481": {
+  "none": true
+ },
+ "2300 Hallock Young Rd, Warren, OH 44481, Lordstown, Ohio, United States": {
+  "none": true
+ },
+ "Lordstown, Ohio, United States": {
+  "lat": 41.1659755,
+  "lon": -80.8574312,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "village",
+  "display": "Lordstown, Trumbull County, Ohio, 44481, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Benton, Michigan, United States": {
+  "lat": 42.12893,
+  "lon": -83.862164,
+  "class": "place",
+  "type": "hamlet",
+  "addresstype": "hamlet",
+  "display": "Benton, Saline Township, Washtenaw County, Michigan, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Burlington, Texas, United States": {
+  "lat": 31.014893,
+  "lon": -96.9969097,
+  "class": "place",
+  "type": "hamlet",
+  "addresstype": "hamlet",
+  "display": "Burlington, Milam County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Santa Teresa, New Mexico, United States": {
+  "lat": 31.8700346,
+  "lon": -106.6865799,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "locality",
+  "display": "Santa Teresa, Doña Ana County, New Mexico, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "175 Private Road 1604, Abilene, TX 79601, Shackelford County": {
+  "none": true
+ },
+ "Abilene, Texas, United States": {
+  "lat": 32.44645,
+  "lon": -99.7475905,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Abilene, Taylor County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Nexus L&T Project Office, Al Bihouth, Al Dhafrah, Abu Dhabi, United Arab Emirates": {
+  "none": true
+ },
+ "Abu Dhabi, Abu Dhabi, United Arab Emirates": {
+  "lat": 24.4538352,
+  "lon": 54.3774014,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "أبو ظبي, أبوظبي, أبو ظبي, الإمارات العربية المتحدة",
+  "geocoded_on": "2026-10-15"
+ },
+ "Port Washington, Wisconsin, United States": {
+  "lat": 43.3885538,
+  "lon": -87.8692845,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Port Washington, Ozaukee County, Wisconsin, 53074, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "6200 76th Ave SW, Fairfax, IA 52228": {
+  "lat": 41.9056197,
+  "lon": -91.7509874,
+  "class": "place",
+  "type": "house",
+  "addresstype": "place",
+  "display": "6200, 76th Avenue Southwest, Cedar Rapids, Linn County, Iowa, 52228, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "652 E Hyperscale Way, Eagle Mountain, UT 84013": {
+  "lat": 40.2688855,
+  "lon": -112.0342942,
+  "class": "highway",
+  "type": "unclassified",
+  "addresstype": "road",
+  "display": "Hyperscale Way, Eagle Mountain, Utah County, Utah, 84005, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "New Carlisle, IN, United States": {
+  "lat": 41.7056871,
+  "lon": -86.5098231,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "New Carlisle, Saint Joseph County, Indiana, 46552, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "New Albany, OH, United States": {
+  "lat": 40.0811745,
+  "lon": -82.8087864,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "New Albany, Plain Township, Franklin County, Ohio, 43054, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "United States": {
+  "lat": 39.7837304,
+  "lon": -100.445882,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "country",
+  "display": "United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Rosemount, MN, United States": {
+  "lat": 44.7391873,
+  "lon": -93.12611,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Rosemount, Dakota County, Minnesota, 55068, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Bristow, VA, United States": {
+  "lat": 38.7311636,
+  "lon": -77.5480241,
+  "class": "place",
+  "type": "town",
+  "addresstype": "town",
+  "display": "Bristow, Prince William County, Virginia, 20136, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Sandston, VA, United States": {
+  "lat": 37.5107225,
+  "lon": -77.3115564,
+  "class": "boundary",
+  "type": "census",
+  "addresstype": "census",
+  "display": "Sandston, Henrico County, Virginia, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Montgomery, AL, United States": {
+  "lat": 32.3777111,
+  "lon": -86.3090775,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Montgomery, Montgomery County, Alabama, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Toney, AL, United States": {
+  "lat": 34.8981438,
+  "lon": -86.7335699,
+  "class": "place",
+  "type": "hamlet",
+  "addresstype": "hamlet",
+  "display": "Toney, Madison County, Alabama, 35773, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Afton, TX, United States": {
+  "lat": 33.7628599,
+  "lon": -100.8168001,
+  "class": "place",
+  "type": "hamlet",
+  "addresstype": "hamlet",
+  "display": "Afton, Dickens County, Texas, 79220, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Cumming, IA, United States": {
+  "lat": 41.4833235,
+  "lon": -93.7624442,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "village",
+  "display": "Cumming, Linn Township, Warren County, Iowa, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Eagle Mountain, UT, United States": {
+  "lat": 40.3093488,
+  "lon": -112.0119825,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Eagle Mountain, Utah County, Utah, 84005, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Clark, Storey County, Nevada, United States": {
+  "lat": 39.5640019,
+  "lon": -119.481755,
+  "class": "place",
+  "type": "locality",
+  "addresstype": "locality",
+  "display": "Clark, Tahoe Reno Industrial Center, Storey County, Nevada, 89437, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Sterling, VA, United States": {
+  "lat": 39.003685,
+  "lon": -77.4083096,
+  "class": "boundary",
+  "type": "census",
+  "addresstype": "census",
+  "display": "Sterling, Loudoun County, Virginia, 20164, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Gallatin, TN, United States": {
+  "lat": 36.3883031,
+  "lon": -86.4475898,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Gallatin, Sumner County, Middle Tennessee, Tennessee, 37066, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Springfield, NE, United States": {
+  "lat": 41.0818396,
+  "lon": -96.1310942,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Springfield, Sarpy County, Nebraska, 68059, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Chester, VA, United States": {
+  "lat": 37.3489475,
+  "lon": -77.438379,
+  "class": "boundary",
+  "type": "census",
+  "addresstype": "census",
+  "display": "Chester, Chesterfield County, Virginia, 23831, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Trenton, SC, United States": {
+  "lat": 33.7416558,
+  "lon": -81.8423388,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Trenton, Edgefield County, South Carolina, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "San Antonio, TX, United States": {
+  "lat": 29.4246002,
+  "lon": -98.4951405,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "San Antonio, Bexar County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Claude, TX, United States": {
+  "lat": 35.1081103,
+  "lon": -101.362741,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Claude, Armstrong County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Bowling Green, OH, United States": {
+  "lat": 41.3747744,
+  "lon": -83.6513229,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "Bowling Green, Wood County, Ohio, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Warren, OH, United States": {
+  "lat": 39.4203978,
+  "lon": -84.180897,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "county",
+  "display": "Warren County, Ohio, United States",
+  "geocoded_on": "2026-10-15"
+ },
+ "Abilene, TX, United States": {
+  "lat": 32.44645,
+  "lon": -99.7475905,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Abilene, Taylor County, Texas, United States",
+  "geocoded_on": "2026-10-15"
+ }
+}

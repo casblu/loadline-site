@@ -1,0 +1,30 @@
+name: Report a data center update
+description: Tell us about a status/capacity/location change, with a public source.
+title: "[AI-DC update] <site name>"
+labels: ["ai-datacenter-update"]
+body:
+  - type: markdown
+    attributes:
+      value: "Public sources only (press release, filing, regulator or utility record, reputable news). We do not accept unsourced claims, and we never contact companies on your behalf. Issues are public."
+  - type: input
+    id: site
+    attributes: {label: Site name (as shown on the tracker), placeholder: "e.g. Meta Hyperion"}
+    validations: {required: true}
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which field?
+      options: [Status (announced / under construction / partially operating / operating / paused / cancelled), Capacity (MW/GW), Chips / compute, Power source or utility, Water, Location / address, Operator, Other]
+    validations: {required: true}
+  - type: textarea
+    id: new
+    attributes: {label: What should it say?, description: "Quote the figure/status exactly as published."}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Source URL, placeholder: "https://..."}
+    validations: {required: true}
+  - type: input
+    id: date
+    attributes: {label: Date the source was published (YYYY-MM-DD)}
+    validations: {required: true}

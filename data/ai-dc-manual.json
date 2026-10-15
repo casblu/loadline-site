@@ -1,0 +1,95 @@
+{
+ "_readme": "Hand-curated, source-verified facts. Each entry needs source_url and as_of. Add status_override (e.g. paused/cancelled) only with a source. Updated via GitHub issues ('Report an update').",
+ "sites": {
+  "OpenAI Stargate Abilene": {
+   "reported": [
+    {
+     "claim": "OpenAI (Sep 23, 2025): the flagship Stargate campus in Abilene, Texas 'is already up and running on Oracle Cloud Infrastructure'; Oracle began delivering the first NVIDIA GB200 racks in June.",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-09-23",
+     "verified_on": "2026-10-15"
+    },
+    {
+     "claim": "Crusoe (Sep 30, 2025): first phase live; campus construction began June 2024; planned eight-building campus. No MW figure in this release.",
+     "source_url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live",
+     "as_of": "2025-09-30",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "Crusoe Abilene Expansion": {
+   "reported": [
+    {
+     "claim": "OpenAI (Sep 23, 2025): 'an additional potential expansion of 600 megawatts near the flagship Stargate site in Abilene, Texas'.",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-09-23",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "OpenAI Stargate Shackelford": {
+   "reported": [
+    {
+     "claim": "OpenAI (Sep 23, 2025) announced a Stargate site in Shackelford County, Texas, developed with Oracle. Per-site MW not given; Oracle sites in Shackelford, Doña Ana County NM and the Midwest, plus a 600 MW Abilene expansion, are described together as 'over 5.5 gigawatts'.",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-09-23",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "OpenAI Stargate New Mexico": {
+   "reported": [
+    {
+     "claim": "OpenAI (Sep 23, 2025) announced a Stargate site in Doña Ana County, New Mexico, with Oracle. Per-site MW not given (see Shackelford note on combined 5.5 GW).",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-09-23",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "OpenAI Stargate Wisconsin": {
+   "reported": [
+    {
+     "claim": "OpenAI update (Oct 22, 2025): the Midwest Stargate site will be in Wisconsin, developed by Oracle in partnership with Vantage. No MW figure on that page.",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-10-22",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "OpenAI Stargate Lordstown": {
+   "reported": [
+    {
+     "claim": "OpenAI (Sep 23, 2025): in Lordstown, Ohio 'SoftBank has broken ground on an advanced data center design which is on track to be operational next year' (i.e. 2026). Lordstown and Milam County together 'can scale to 1.5 gigawatts over the next 18 months' (combined figure).",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-09-23",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "OpenAI Stargate Milam": {
+   "reported": [
+    {
+     "claim": "OpenAI (Sep 23, 2025): Milam County, Texas site developed with SB Energy (a SoftBank Group company), 'providing powered infrastructure'. Combined with Lordstown 'can scale to 1.5 gigawatts over the next 18 months'.",
+     "source_url": "https://openai.com/index/five-new-stargate-sites/",
+     "as_of": "2025-09-23",
+     "verified_on": "2026-10-15"
+    }
+   ]
+  },
+  "Anthropic-Amazon New Carlisle": {
+   "reported": [
+    {
+     "claim": "Amazon: Project Rainier is 'now fully operational', spread 'across multiple data centers in the United States' with 'nearly half a million Trainium2 chips' (whole project, not this site alone); St. Joseph County, Indiana is named as one Rainier site, with cooling water use only part of the year. Publication date not shown in the fetched text.",
+     "source_url": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+     "as_of": null,
+     "verified_on": "2026-10-15"
+    }
+   ]
+  }
+ },
+ "geocode_overrides": {
+  "Google Storey County": "Clark, Storey County, Nevada, United States"
+ },
+ "_geocode_note": "geocode_overrides: used only where Epoch's own city field is ambiguous to the geocoder; query text comes from Epoch's city/county for the site. Sites with no city and no address in Epoch are left without a map pin."
+}
