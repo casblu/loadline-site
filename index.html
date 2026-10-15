@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b14">
+<title>Loadline — Neutral grid &amp; Bitcoin mining intelligence</title>
+<meta name="description" content="Neutral education and monitoring of how Bitcoin mining relates to the power grid.">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header class="nav"><a class="brand" href="#top"><span class="logo"></span><span>Load<b>line</b></span></a>
+<nav><a href="#map">Map</a><a href="#explainer">Explainer</a><a href="#learn">Learn</a><a href="#method">Sources</a><a href="#join" class="pill">Waitlist</a></nav></header>
+
+<section class="hero" id="top">
+<canvas id="bg"></canvas>
+<div class="wrap hero-in">
+<p class="eyebrow">Neutral grid &amp; mining intelligence · Draft v0.1</p>
+<h1>The grid and Bitcoin mining,<br><span class="grad">explained with receipts.</span></h1>
+<p class="lead">We don't mine. We measure, explain and verify how large flexible loads use power, so utilities, miners and the public can argue from the same numbers.</p>
+<div class="cta"><a class="btn" href="#map">Explore the map</a><a class="btn ghost" href="#explainer">Try the grid model</a></div>
+<div class="stats">
+<div><b>~52%</b><span>of ERCOT's Emergency Response Service is Bitcoin mining</span></div>
+<div><b>Dec 10, 2026</b><span>ERCOT large-load audit &amp; Community Impact Review due to PUCT</span></div>
+<div><b>52% vs 85%</b><span>"sustainable" vs fossil share — studies disagree. We show both.</span></div>
+</div>
+<p class="tiny">Sources for every figure are in the <a href="#method">sources list</a>.</p>
+</div></section>
+
+<section id="map" class="sec"><div class="wrap">
+<p class="eyebrow">Interactive map</p><h2>Texas, with US context</h2>
+<p class="sub">Every pin is a publicly reported location. Pins sit at the <b>town centre, not the site's exact coordinates</b>. Tap a pin for a sourced card.</p>
+<div class="mapbox">
+<div id="lmap" aria-label="Map of Texas and US"></div>
+<div class="panel" id="panel">
+<div class="layers" id="layers"></div>
+<div class="card" id="card"><h3>Tap a pin</h3><p>Choose a layer above, then tap a point on the map to see what is publicly reported there, with sources.</p></div>
+</div></div>
+<div class="viewbtns"><button data-v="tx">Texas</button><button data-v="us">United States</button></div>
+<p class="tiny">Not shown, on purpose: ERCOT's exact boundary, flared-gas well locations and any site power data. We found no public, citable dataset for those, so we do not draw them. State outlines: public-domain US states GeoJSON (PublicaMundi/MappingAPI); no tile service used.</p>
+</div></section>
+
+<section id="explainer" class="sec alt"><div class="wrap">
+<p class="eyebrow">Explainer · illustrative model</p><h2>How mining can help — or hurt — on a stressed day</h2>
+<p class="sub">A toy model, <b>not real data</b>. Numbers are in arbitrary index units to show the logic. Move the sliders and watch the grid's margin.</p>
+<div class="model">
+<svg id="chart" viewBox="0 0 640 300" role="img" aria-label="Illustrative chart of grid demand, supply limit and mining load across a day"></svg>
+<div class="legend"><span><i style="background:#6ea8ff"></i>Other demand</span><span><i style="background:#f7931a"></i>Mining load (after curtailment)</span><span><i class="dash"></i>Available supply</span></div>
+<div class="ctl">
+<label>Evening supply squeeze: <b id="v1">20</b>%<input id="s1" type="range" min="0" max="40" value="20"></label>
+<label>Mining curtails when stressed: <b id="v2">100</b>%<input id="s2" type="range" min="0" max="100" value="100"></label>
+<label>Mining share of load at start: <b id="v3">10</b> index pts<input id="s3" type="range" min="0" max="25" value="10"></label>
+<label class="chk"><input id="s4" type="checkbox" checked> Curtails only when <i>price</i> is high, not when the grid is scarce (see NPRR‑1337)</label>
+</div>
+<div id="verdict" class="verdict"></div>
+</div>
+<div class="two">
+<div class="brief good"><h3>Where it can help</h3><p>A mine can switch off in seconds. If it reliably does so when supply is short, it behaves like a very large, fast demand-response resource. Duke's Nicholas Institute estimates the US grid could add ~76 GW of flexible load if it curtails only 0.25% of the time.</p></div>
+<div class="brief bad"><h3>Where it can hurt</h3><p>New large loads add to peak demand if they don't reliably curtail, and a mine that only responds to price may stay on when the grid is scarce. Studies also disagree on how much mining power is fossil-fuelled, and on local effects such as noise.</p></div>
+</div>
+<p class="tiny">Why the model: ERCOT's proposed NPRR‑1337 (filed May 26, 2026) would disqualify loads that only switch off when prices are high. The checkbox illustrates that distinction. Shapes of the curves are invented.</p>
+</div></section>
+
+<section id="learn" class="sec"><div class="wrap">
+<p class="eyebrow">Education hub</p><h2>Plain-language explainers</h2>
+<div class="grid" id="explainers"></div>
+<h2 class="h2s">Both sides, side by side</h2>
+<div class="tbl" id="both"></div>
+<h2 class="h2s">FAQ</h2>
+<div id="faq"></div>
+</div></section>
+
+<section id="method" class="sec alt"><div class="wrap">
+<p class="eyebrow">Transparency</p><h2>Methodology &amp; sources</h2>
+<div class="two">
+<div class="brief"><h3>Our rules</h3><ul>
+<li>Every figure links to a source. If we can't cite it, we don't publish it.</li>
+<li>Industry-reported and advocacy figures are labelled as such.</li>
+<li>Where sources conflict, we show both, not an average.</li>
+<li>Pins mark town-level locations reported publicly. They are not surveyed site coordinates.</li>
+<li>Illustrative graphics say "illustrative" on them.</li>
+<li>Gaps are stated as gaps: no official EIA data, no neutral polling found.</li></ul></div>
+<div class="brief"><h3>Known limits</h3><ul>
+<li>Drafted Oct 15, 2026 from public documents; not independently audited.</li>
+<li>Bitcoin Mining Council's own site couldn't be loaded when checked; its figure is via a secondary summary and is self-reported.</li>
+<li>Miners are moving to AI hosting, so "mining" and "flexible compute" overlap.</li>
+<li>No live grid data feed yet. For live conditions see ERCOT and Grid Status below.</li></ul></div></div>
+<h3 class="h2s">Source list</h3><ol class="src" id="srclist"></ol>
+</div></section>
+
+<section id="join" class="sec"><div class="wrap narrow">
+<p class="eyebrow">Stay in the loop</p><h2>Waitlist (placeholder)</h2>
+<p class="sub">This form is a design placeholder. <b>It collects and sends nothing.</b> Real sign-up opens when the project does.</p>
+<form id="wl" onsubmit="event.preventDefault();document.getElementById('wlmsg').textContent='Placeholder only — nothing was stored or sent.'">
+<input type="text" placeholder="Name (not stored)" aria-label="Name"><input type="text" placeholder="Email (not stored)" aria-label="Email">
+<select aria-label="I am a"><option>I am a utility / grid operator</option><option>I am a miner / operator</option><option>I am a resident / official</option><option>Researcher / press</option></select>
+<button class="btn" type="submit">Join (demo)</button><p id="wlmsg" class="tiny"></p></form>
+</div></section>
+<footer><div class="wrap">Loadline is a working name. Draft for discussion; not investment, legal or engineering advice. <span style="opacity:.6">A SIVYIS Corp initiative</span></div></footer>
+<script src="vendor/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body></html>
