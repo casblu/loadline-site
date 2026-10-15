@@ -1,0 +1,21 @@
+name: update-data
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly at :17 (avoids top-of-hour congestion)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: update-data
+jobs:
+  ercot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch ERCOT public dashboard data (no API key)
+        run: python3 scripts/fetch_ercot.py
+      - name: Commit if changed
+        run: |
+          git config user.name "loadline-bot"
+          git config user.email "loadline-bot@users.noreply.github.com"
+          git add data/ercot-latest.json
+          git diff --staged --quiet || (git commit -m "data: ERCOT latest $(date -u +%FT%TZ)" && git pull --rebase && git push)

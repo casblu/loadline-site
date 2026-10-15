@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b14">
+<title>Data Centers — Loadline transparency tracker (draft)</title>
+<meta name="description" content="Neutral, sourced view of what data center operators publicly disclose about electricity, water and compute, and how recent it is. Draft.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dc.css">
+</head><body>
+<header class="nav"><a class="brand" href="index.html"><span class="logo"></span><span>Load<b>line</b></span></a>
+<nav><a href="index.html" class="keep">Home</a><a href="#scorecard" class="keep">Scorecard</a><a href="#compare" class="keep">Compare</a><a href="#grid">Grid</a><a href="#gaps">Gaps</a><a href="#live" class="pill">Live</a></nav></header>
+
+<section class="hero dchero" id="top"><div class="wrap hero-in">
+<p class="eyebrow">Data Centers · Transparency tracker · Draft v0.1</p>
+<h1>What do data centers <span class="grad">publicly disclose?</span></h1>
+<p class="lead">Electricity, water and compute figures from company reports, utilities and regulators, each with its source, the period it covers, and how old it is. Where nothing is published, we say so.</p>
+<div class="chips"><span class="chip warn">DRAFT · scores not final · companies invited to submit corrections</span><span class="chip" id="lastchk">Last checked: …</span></div>
+<p class="tiny">Every figure on this page is copied as published from a linked source. We do not estimate, extrapolate or convert units. Figures are loaded from <a href="data/datacenter-data.json">data/datacenter-data.json</a>.</p>
+</div></section>
+
+<section class="sec" id="why"><div class="wrap">
+<p class="eyebrow">1 · Why it matters</p><h2>Transparency is how the public can weigh the trade-offs</h2>
+<div class="two">
+<div class="brief"><h3>Large, fast-growing loads</h3><p>LBNL estimates US data centers used 176 TWh in 2023, 4.4% of US electricity. The IEA estimates 485 TWh worldwide in 2025. Both are modelled estimates, not metered totals (see <a href="#grid">grid context</a>).</p></div>
+<div class="brief"><h3>Local effects need local numbers</h3><p>Water and power are drawn from specific grids and aquifers. Utilities, regulators and residents can only assess a project if site-level figures exist, and few operators publish them.</p></div>
+<div class="brief"><h3>Disclosure is uneven and often old</h3><p>Reports come once a year, months after the period ends. Definitions differ between companies. This tracker shows what exists, what it covers and how old it is, so disclosure can be compared and can improve.</p></div>
+</div>
+<p class="tiny">Tone: descriptive, not accusatory. A low disclosure score means little is public. It does not mean a company is using more or less power or water.</p>
+</div></section>
+
+<section class="sec alt" id="scorecard"><div class="wrap">
+<p class="eyebrow">2 · Disclosure scorecard</p><h2>How much is publicly disclosed?</h2>
+<div class="banner"><b>DRAFT (rubric draft-0.1).</b> Companies are invited to submit corrections and sources. Scores measure <b>what is published</b>, not how much power or water a company uses. Estimates by third parties are never scored.</div>
+<div id="scores" class="grid sc"></div>
+<div class="legendrow"><span><i class="k ok"></i>points earned</span><span><i class="k zero"></i>0 points: nothing found</span><span><i class="k nc"></i>not yet checked (counts as 0, shown honestly)</span></div>
+<details class="meth" open><summary>Methodology: the 100-point rubric</summary>
+<div id="rubric"></div>
+<ul class="tiny">
+<li>"Not yet checked" criteria count 0 in the total and are marked as such. A company's score may rise once they are checked.</li>
+<li>Timeliness (C8) is measured from the end of the reported period to publication, and uses the check date of Oct 15, 2026.</li>
+<li>Scores use only evidence we verified in the linked sources. Apple's score is a <b>partial review</b>: most criteria are unchecked.</li>
+<li><b>Planned process (not yet in place):</b> publish the rubric before scores, give each company 14 days to send sources before first publication, and keep a public changelog.</li>
+<li>Equinix (colocation) and Epoch-estimated sites are shown in the comparison but are not scored.</li>
+</ul></details>
+</div></section>
+
+<section class="sec" id="compare"><div class="wrap">
+<p class="eyebrow">3 · Company comparison</p><h2>Reported figures, side by side with their caveats</h2>
+<div class="banner warn2"><b>Not like-for-like.</b> Companies differ in:
+<ul><li><b>Boundary:</b> owned/operated sites only (Google, Microsoft) vs including leased (Meta) vs including colocation share (Apple).</li>
+<li><b>Fiscal year:</b> Microsoft Jul–Jun (FY25), Apple Oct–Sep, others calendar year.</li>
+<li><b>Water:</b> withdrawn vs consumed are different quantities. Per-site Microsoft and Meta figures are withdrawal only.</li>
+<li><b>WUE:</b> Meta and AWS divide withdrawn water by IT kWh. Microsoft uses cooling and humidification water. Not comparable.</li>
+<li><b>Units:</b> kept as published (MWh, ML, million gallons). We do not convert.</li></ul>
+Compare each company with its own history rather than with others, and do not add them into a market total.</div>
+<div class="fresh tiny"><b>Data age</b> = time since the reported period ended, relative to today:
+<span class="age g">≤ 13 months</span><span class="age a">13–18 months</span><span class="age r">&gt; 18 months</span></div>
+
+<h3 class="h2s">Electricity (annual, MWh as published)</h3><div id="ch-elec" class="bars"></div>
+<h3 class="h2s">PUE (ratio; lower is more efficient)</h3><div id="ch-pue" class="bars"></div>
+<h3 class="h2s">WUE (L per kWh of IT load) · definitions differ</h3><div id="ch-wue" class="bars"></div>
+<h3 class="h2s">Water (volumes in published units, not on one axis)</h3><div id="ch-water" class="grid cards"></div>
+<h3 class="h2s">All figures by company</h3><div id="co-cards"></div>
+</div></section>
+
+<section class="sec alt" id="grid"><div class="wrap">
+<p class="eyebrow">4 · Regional &amp; grid context</p><h2>Estimates, requests and forecasts: not metered use</h2>
+<div class="banner warn2">Totals below are <b>modelled estimates, scenarios or interconnection requests</b>. Grid queue figures measure requests, not consumption. Nobody publishes metered real-time consumption by data center.</div>
+<div id="regional"></div>
+<h3 class="h2s">State and EU disclosure measures (status as of Oct 15, 2026)</h3>
+<div id="laws" class="tbl2"></div>
+<p class="tiny">Also: EIA launched voluntary pilot data-center energy surveys on Mar 25, 2026 (196 companies in TX and WA); there is no national mandatory survey yet. <a href="https://www.eia.gov/pressroom/releases/press585.php">EIA press release</a>, 2026-03-25.</p>
+</div></section>
+
+<section class="sec" id="gaps"><div class="wrap">
+<p class="eyebrow">5 · Who publishes nothing</p><h2>Gaps in public disclosure</h2>
+<div id="gaplist" class="grid cards"></div>
+</div></section>
+
+<section class="sec alt" id="trackers"><div class="wrap">
+<p class="eyebrow">6 · Credits &amp; related trackers</p><h2>Others doing adjacent work</h2>
+<p class="sub">Loadline does not replace these. We link and credit them. None of their data is copied into this page yet.</p>
+<div id="trk" class="grid cards"></div>
+</div></section>
+
+<section class="sec" id="live"><div class="wrap">
+<p class="eyebrow">7 · Live feeds</p><h2>ERCOT grid snapshot</h2>
+<div class="card livecard" id="ercot"><p class="tiny">Loading…</p></div>
+<h3 class="h2s">Feed status</h3>
+<div id="feeds" class="tbl2"></div>
+<p class="tiny">Most disclosure data (company reports) is annual and cannot be live. We check for new reports and show an "as of" date on every figure.</p>
+</div></section>
+
+<section class="sec alt" id="corrections"><div class="wrap narrow">
+<p class="eyebrow">8 · Corrections</p><h2>Corrections and submissions</h2>
+<div class="card"><p><b>Placeholder only. This page collects nothing: no form, no email, no tracking.</b></p>
+<p>Planned: companies, utilities and researchers will be able to send a source (report page, filing or regulator record) for any row or score. Corrections will be logged in a public changelog and the row's "verified on" date updated. A submission route will be added before scores are published, and this note will be updated then.</p></div>
+</div></section>
+
+<footer><div class="wrap">Loadline is a working name. Draft for discussion; not investment, legal or engineering advice. Figures are as published by the linked sources and may contain errors; tell us via the route above once it exists. <span style="opacity:.6">A SIVYIS Corp initiative</span> · <a href="index.html">Back to Loadline</a></div></footer>
+<script src="dc.js"></script>
+</body></html>
