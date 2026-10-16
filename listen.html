@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b14">
+<title>Listen to the grid — Loadline (prototype)</title>
+<meta name="description" content="Hear Loadline's public grid and AI data center data as sound, or paste your own data. Every series shows its source and date. No ads, no trackers.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dc.css">
+<link rel="stylesheet" href="listen.css">
+</head><body>
+<header class="nav"><a class="brand" href="index.html"><span class="logo"></span><span>Load<b>line</b></span></a>
+<nav><a href="index.html" class="keep">Home</a><a href="data-centers.html" class="keep">Transparency</a><a href="ai-datacenters.html" class="keep">AI Tracker</a><a href="listen.html" class="keep" aria-current="page">Listen</a><a href="#how" class="pill">How it works</a></nav></header>
+
+<section class="hero dchero"><div class="wrap hero-in">
+<p class="eyebrow">Data sonification · Prototype v0.1</p>
+<h1>Listen to <span class="grad">the grid.</span></h1>
+<p class="lead">Turn numbers into sound. Pick a series, choose how values become pitch, volume or tempo, and press play. Higher values sound higher, louder or faster. Works with your own data too.</p>
+<div class="chips"><span class="chip warn">Prototype: sound is for exploration, not measurement</span><span class="chip">No ads · no trackers · runs in your browser</span></div>
+</div></section>
+
+<section class="sec" id="player"><div class="wrap">
+<div class="lgrid">
+<div class="panel">
+<h2 class="h2s">1 · Data</h2>
+<label for="series">Data series</label>
+<select id="series"></select>
+<div id="meta" class="meta" aria-live="polite"></div>
+</div>
+<div class="panel">
+<h2 class="h2s">2 · Sound</h2>
+<div class="ctl">
+<label for="mapping">Mapping</label>
+<select id="mapping">
+<option value="pitch">Value → pitch</option>
+<option value="pitchvol">Value → pitch + volume</option>
+<option value="pitchbright">Value → pitch + brightness</option>
+<option value="volume">Value → volume (one pitch)</option>
+<option value="tempo">Value → tempo (one pitch)</option>
+<option value="timbre">Value → timbre brightness (one pitch)</option>
+</select>
+<label for="scale">Scale</label>
+<select id="scale"><option value="pentatonic">Pentatonic</option><option value="minor">Minor</option><option value="major">Major</option><option value="chromatic">Chromatic</option></select>
+<label for="wave">Voice</label>
+<select id="wave"><option value="triangle">Soft (triangle)</option><option value="sine">Pure (sine)</option><option value="sawtooth">Bright (saw)</option><option value="square">Hollow (square)</option></select>
+<label for="octaves">Pitch range: <output id="octout">3</output> octaves</label>
+<input id="octaves" type="range" min="1" max="5" value="3">
+<label for="speed">Speed: <output id="speedout">1×</output></label>
+<input id="speed" type="range" min="0.25" max="4" step="0.25" value="1">
+<label for="vol">Volume</label>
+<input id="vol" type="range" min="0" max="1" step="0.05" value="0.6">
+</div>
+</div>
+</div>
+
+<div class="panel chartp">
+<div class="transport">
+<button class="btn" id="play" type="button" aria-keyshortcuts="Space">▶ Play</button>
+<button class="btn ghost" id="stop" type="button">■ Stop</button>
+<span class="tiny" id="status" role="status" aria-live="polite">Ready. Space plays or pauses when the chart is focused.</span>
+</div>
+<canvas id="chart" width="960" height="260" tabindex="0" role="img" aria-label="Line chart of the selected series with a moving playhead"></canvas>
+<div class="readout" id="readout" aria-hidden="true">&nbsp;</div>
+<h3 class="h3s">Text alternative</h3>
+<p id="alt" class="alt"></p>
+<details><summary>Show the numbers (table)</summary><div class="tw"><table class="ai" id="tbl"><thead><tr><th>Time / label</th><th>Value</th></tr></thead><tbody></tbody></table></div></details>
+</div>
+</div></section>
+
+<section class="sec alt2" id="own"><div class="wrap">
+<h2 class="h2s">Bring your own data</h2>
+<p class="lead2">Sensors, lab results, server metrics, prices: any list of numbers. Paste CSV or JSON, or load a JSON URL. Nothing is uploaded; parsing happens in your browser. Your data does not leave this page.</p>
+<div class="lgrid">
+<div class="panel">
+<label for="paste">Paste CSV or JSON</label>
+<textarea id="paste" rows="8" spellcheck="false" placeholder="time,temperature_c&#10;2026-10-01,12.4&#10;2026-10-02,14.1&#10;2026-10-03,9.8"></textarea>
+<div class="ctl row"><button class="btn" id="usepaste" type="button">Use pasted data</button><button class="btn ghost" id="sample" type="button">Fill sample</button></div>
+<label for="url">…or load a JSON URL</label>
+<div class="ctl row"><input id="url" type="url" placeholder="https://example.org/data.json"><button class="btn ghost" id="loadurl" type="button">Load</button></div>
+<p class="tiny">URLs must allow cross-origin requests (CORS). If one is blocked, download it and paste it instead.</p>
+</div>
+<div class="panel">
+<div id="cols" hidden>
+<label for="valcol">Value column</label><select id="valcol"></select>
+<label for="timecol">Time / label column</label><select id="timecol"></select>
+<label for="ownname">Name for this series</label><input id="ownname" type="text" value="My data">
+<label for="ownunit">Unit (optional)</label><input id="ownunit" type="text" placeholder="e.g. °C, MW, ms">
+<label for="ownsrc">Source and date (shown next to the series)</label><input id="ownsrc" type="text" placeholder="e.g. Lab bench sensor, 2026-10-12">
+<button class="btn" id="applyown" type="button">Sonify this</button>
+</div>
+<p id="ownmsg" class="tiny" role="status" aria-live="polite">Choose columns after loading.</p>
+</div>
+</div>
+</div></section>
+
+<section class="sec" id="how"><div class="wrap">
+<h2 class="h2s">How it works, and limits</h2>
+<ul class="tiny lst">
+<li>Values are scaled between the series' own minimum and maximum, then mapped to the chosen scale, volume, tempo or brightness. Different series are not comparable by ear: the lowest note is always that series' lowest value.</li>
+<li>Series longer than 240 points are averaged into 240 buckets so playback stays short.</li>
+<li><b>ERCOT today</b> and <b>ERCOT hourly</b> come from ERCOT's public dashboards, fetched hourly by this repo's Action. The hourly history only started when this page was built (seeded from earlier hourly commits) and grows over time. System-wide figures only: data-center load is not metered separately.</li>
+<li><b>AI data center series</b> are ranked lists of sites, not time series. Almost all figures are Epoch AI estimates (CC BY 4.0), not company-reported numbers. Sites without a figure are skipped.</li>
+<li>Sound is made with the Web Audio API in your browser. Browsers need a click or key press before audio can start. Phones may stay silent in silent mode.</li>
+<li>The module is plain JavaScript: <a href="sonify.js">sonify.js</a>. It takes any array of <code>{t, v, label}</code> points.</li>
+</ul>
+</div></section>
+<footer><div class="wrap">Loadline is a working name. Prototype for discussion; not investment, legal or engineering advice. <span style="opacity:.6">A Civius Corp initiative</span> · <a href="index.html">Back to Loadline</a> · <a href="ai-datacenters.html">AI data center tracker</a></div></footer>
+<script src="sonify.js"></script>
+<script src="listen.js"></script>
+</body></html>

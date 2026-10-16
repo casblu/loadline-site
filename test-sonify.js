@@ -1,0 +1,17 @@
+const S=require('./sonify.js'),a=require('assert');
+const pts=S.normalize([{t:'2026-01-01 00:00:00-0500',v:'1,000'},{t:'2026-01-01 01:00:00-0500',v:2000},{t:'x',v:'bad'},{t:'2026-01-01 02:00:00-0500',v:3000}]);
+a.equal(pts.length,3);a(pts[0].t<pts[2].t);
+const f=S.scaleFreqs('pentatonic',48,3);a.equal(f.length,16);a(Math.abs(S.midiToHz(69)-440)<1e-9);
+let p=S.plan(pts,{mode:'pitch',scale:'pentatonic'});a(p.notes[0].freq<p.notes[2].freq);a.equal(p.notes[0].freq,f[0]);a.equal(p.notes[2].freq,f[f.length-1]);
+const q=S.plan(pts,{mode:'tempo'});a(q.notes[1].time-q.notes[0].time>q.notes[2].time-q.notes[1].time);
+a(S.plan(pts,{mode:'volume'}).notes[2].gain>S.plan(pts,{mode:'volume'}).notes[0].gain);
+a(S.plan(pts,{speed:2}).total<S.plan(pts,{speed:1}).total);
+a.equal(S.plan([{t:0,v:5},{t:1,v:5}],{}).notes[0].freq>0,true);
+a.equal(S.scaleFreqs('chromatic',60,1).length,13);
+const t=S.parseCSV('date,val,name\n2026-01-01,"1,5",a\n2026-01-02,3,"b,c"\n');a.deepEqual(t.columns,['date','val','name']);a.equal(t.rows[1][2],'b,c');
+a.deepEqual(S.numericColumns(S.parseCSV('d;v\n1;2\n2;3')),[0,1]);
+const tj=S.tableFromJSON({points:[{t:1,v:2},{t:2,v:3}]});a.deepEqual(tj.columns,['t','v']);
+a.equal(S.pointsFromTable(S.parseCSV('3\n4\n5'),0,-1).length,3);
+a.equal(S.downsample(Array.from({length:1000},(_,i)=>({t:i,v:i,label:''+i})),100).length,100);
+a(/rising/.test(S.summarize(pts,'MW')));
+console.log('sonify: all checks passed');

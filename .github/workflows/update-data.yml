@@ -17,5 +17,5 @@ jobs:
         run: |
           git config user.name "loadline-bot"
           git config user.email "loadline-bot@users.noreply.github.com"
-          git add data/ercot-latest.json
+          git add data/ercot-latest.json data/ercot-day.json data/ercot-history.json
           git diff --staged --quiet || (git commit -m "data: ERCOT latest $(date -u +%FT%TZ)" && git pull --rebase && git push)

@@ -1,0 +1,81 @@
+{
+ "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
+ "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
+ "unit": "MW",
+ "note": "One reading per hourly run of this repo's Action (the latest published interval at that time). Seeded from this repo's commit history.",
+ "points": [
+  {
+   "t": "2026-10-15 13:40:00-0500",
+   "demand_mw": 70865,
+   "capacity_mw": 97842,
+   "prc_mw": "18,609"
+  },
+  {
+   "t": "2026-10-15 14:45:00-0500",
+   "demand_mw": 73179,
+   "capacity_mw": 100000,
+   "prc_mw": "19,169"
+  },
+  {
+   "t": "2026-10-15 15:45:00-0500",
+   "demand_mw": 74773,
+   "capacity_mw": 103730,
+   "prc_mw": "19,088"
+  },
+  {
+   "t": "2026-10-15 16:45:00-0500",
+   "demand_mw": 74949,
+   "capacity_mw": 105720,
+   "prc_mw": "19,351"
+  },
+  {
+   "t": "2026-10-15 17:45:00-0500",
+   "demand_mw": 73321,
+   "capacity_mw": 98074,
+   "prc_mw": "16,110"
+  },
+  {
+   "t": "2026-10-15 18:40:00-0500",
+   "demand_mw": 70834,
+   "capacity_mw": 89933,
+   "prc_mw": "13,669"
+  },
+  {
+   "t": "2026-10-15 19:55:00-0500",
+   "demand_mw": 68415,
+   "capacity_mw": 88767,
+   "prc_mw": "11,800"
+  },
+  {
+   "t": "2026-10-15 20:45:00-0500",
+   "demand_mw": 66044,
+   "capacity_mw": 87339,
+   "prc_mw": "10,455"
+  },
+  {
+   "t": "2026-10-15 21:50:00-0500",
+   "demand_mw": 63203,
+   "capacity_mw": 84939,
+   "prc_mw": "10,165"
+  },
+  {
+   "t": "2026-10-15 22:50:00-0500",
+   "demand_mw": 59652,
+   "capacity_mw": 84162,
+   "prc_mw": "10,702"
+  },
+  {
+   "t": "2026-10-15 23:50:00-0500",
+   "demand_mw": 56097,
+   "capacity_mw": 80084,
+   "prc_mw": "10,786"
+  },
+  {
+   "t": "2026-10-16 00:25:00-0500",
+   "demand_mw": 54630,
+   "capacity_mw": 76708,
+   "prc_mw": "9,895"
+  }
+ ],
+ "fetched_at": "2026-10-16T05:27:18+00:00"
+}

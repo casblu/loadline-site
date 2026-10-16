@@ -26,3 +26,17 @@ out = {
 }
 json.dump(out, open("data/ercot-latest.json", "w"), indent=1)
 print(json.dumps(out))
+
+# --- series for the sonification page ---
+import os
+day = {"source": out["source"], "source_url": out["source_url"], "source_updated_at": sd.get("lastUpdated"),
+       "fetched_at": out["fetched_at"], "unit": "MW", "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
+       "points": [{"t": e["timestamp"], "demand_mw": e["demand"], "capacity_mw": e.get("capacity")} for e in actual]}
+json.dump(day, open("data/ercot-day.json", "w"), indent=1)
+hp = "data/ercot-history.json"
+hist = json.load(open(hp)) if os.path.exists(hp) else {"source": out["source"], "source_url": out["source_url"], "unit": "MW", "note": "One reading per hourly run of this repo's Action (the latest published interval at that time).", "points": []}
+if not any(x["t"] == out["interval_timestamp"] for x in hist["points"]):
+    hist["points"].append({"t": out["interval_timestamp"], "demand_mw": out["demand_mw"], "capacity_mw": out["capacity_mw"], "prc_mw": out["prc_mw"]})
+hist["points"] = hist["points"][-2000:]
+hist["fetched_at"] = out["fetched_at"]
+json.dump(hist, open(hp, "w"), indent=1)
