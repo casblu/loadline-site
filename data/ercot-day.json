@@ -1,8 +1,8 @@
 {
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-10-19 12:45:00-0500",
- "fetched_at": "2026-10-19T17:48:21+00:00",
+ "source_updated_at": "2026-10-19 14:00:00-0500",
+ "fetched_at": "2026-10-19T19:02:08+00:00",
  "unit": "MW",
  "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
  "points": [
@@ -775,6 +775,81 @@
    "t": "2026-10-19 12:45:00-0500",
    "demand_mw": 51964,
    "capacity_mw": 82125
+  },
+  {
+   "t": "2026-10-19 12:50:00-0500",
+   "demand_mw": 52013,
+   "capacity_mw": 81568
+  },
+  {
+   "t": "2026-10-19 12:55:00-0500",
+   "demand_mw": 51899,
+   "capacity_mw": 81442
+  },
+  {
+   "t": "2026-10-19 13:00:00-0500",
+   "demand_mw": 52236,
+   "capacity_mw": 82960
+  },
+  {
+   "t": "2026-10-19 13:05:00-0500",
+   "demand_mw": 52461,
+   "capacity_mw": 82651
+  },
+  {
+   "t": "2026-10-19 13:10:00-0500",
+   "demand_mw": 52497,
+   "capacity_mw": 82453
+  },
+  {
+   "t": "2026-10-19 13:15:00-0500",
+   "demand_mw": 52745,
+   "capacity_mw": 82769
+  },
+  {
+   "t": "2026-10-19 13:20:00-0500",
+   "demand_mw": 52585,
+   "capacity_mw": 82191
+  },
+  {
+   "t": "2026-10-19 13:25:00-0500",
+   "demand_mw": 52882,
+   "capacity_mw": 82986
+  },
+  {
+   "t": "2026-10-19 13:30:00-0500",
+   "demand_mw": 52903,
+   "capacity_mw": 82098
+  },
+  {
+   "t": "2026-10-19 13:35:00-0500",
+   "demand_mw": 53017,
+   "capacity_mw": 82728
+  },
+  {
+   "t": "2026-10-19 13:40:00-0500",
+   "demand_mw": 53172,
+   "capacity_mw": 82138
+  },
+  {
+   "t": "2026-10-19 13:45:00-0500",
+   "demand_mw": 53120,
+   "capacity_mw": 81983
+  },
+  {
+   "t": "2026-10-19 13:50:00-0500",
+   "demand_mw": 53241,
+   "capacity_mw": 83168
+  },
+  {
+   "t": "2026-10-19 13:55:00-0500",
+   "demand_mw": 53248,
+   "capacity_mw": 81998
+  },
+  {
+   "t": "2026-10-19 14:00:00-0500",
+   "demand_mw": 53511,
+   "capacity_mw": 82038
   }
  ]
 }
