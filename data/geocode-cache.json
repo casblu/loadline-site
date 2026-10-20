@@ -1108,5 +1108,14 @@
   "addresstype": "city",
   "display": "Abilene, Taylor County, Texas, United States",
   "geocoded_on": "2026-10-15"
+ },
+ "Mesa, Arizona, United States": {
+  "lat": 33.4151005,
+  "lon": -111.831455,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "city",
+  "display": "Mesa, Maricopa County, Arizona, United States",
+  "geocoded_on": "2026-10-20"
  }
 }
