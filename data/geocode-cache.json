@@ -1117,5 +1117,8 @@
   "addresstype": "city",
   "display": "Mesa, Maricopa County, Arizona, United States",
   "geocoded_on": "2026-10-20"
+ },
+ "Ulanqab, Inner Mongolia\\n, China": {
+  "none": true
  }
 }
