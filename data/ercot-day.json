@@ -1,8 +1,8 @@
 {
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-10-24 00:45:00-0500",
- "fetched_at": "2026-10-24T05:50:20+00:00",
+ "source_updated_at": "2026-10-24 02:00:00-0500",
+ "fetched_at": "2026-10-24T07:03:11+00:00",
  "unit": "MW",
  "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
  "points": [
@@ -55,6 +55,81 @@
    "t": "2026-10-24 00:45:00-0500",
    "demand_mw": 48288,
    "capacity_mw": 77640
+  },
+  {
+   "t": "2026-10-24 00:50:00-0500",
+   "demand_mw": 48200,
+   "capacity_mw": 77500
+  },
+  {
+   "t": "2026-10-24 00:55:00-0500",
+   "demand_mw": 48066,
+   "capacity_mw": 77075
+  },
+  {
+   "t": "2026-10-24 01:00:00-0500",
+   "demand_mw": 47547,
+   "capacity_mw": 77011
+  },
+  {
+   "t": "2026-10-24 01:05:00-0500",
+   "demand_mw": 47343,
+   "capacity_mw": 76527
+  },
+  {
+   "t": "2026-10-24 01:10:00-0500",
+   "demand_mw": 47210,
+   "capacity_mw": 76261
+  },
+  {
+   "t": "2026-10-24 01:15:00-0500",
+   "demand_mw": 47113,
+   "capacity_mw": 76390
+  },
+  {
+   "t": "2026-10-24 01:20:00-0500",
+   "demand_mw": 46996,
+   "capacity_mw": 75855
+  },
+  {
+   "t": "2026-10-24 01:25:00-0500",
+   "demand_mw": 47024,
+   "capacity_mw": 75833
+  },
+  {
+   "t": "2026-10-24 01:30:00-0500",
+   "demand_mw": 46604,
+   "capacity_mw": 75547
+  },
+  {
+   "t": "2026-10-24 01:35:00-0500",
+   "demand_mw": 46457,
+   "capacity_mw": 75335
+  },
+  {
+   "t": "2026-10-24 01:40:00-0500",
+   "demand_mw": 46335,
+   "capacity_mw": 75527
+  },
+  {
+   "t": "2026-10-24 01:45:00-0500",
+   "demand_mw": 46533,
+   "capacity_mw": 75724
+  },
+  {
+   "t": "2026-10-24 01:50:00-0500",
+   "demand_mw": 46305,
+   "capacity_mw": 75346
+  },
+  {
+   "t": "2026-10-24 01:55:00-0500",
+   "demand_mw": 46004,
+   "capacity_mw": 74858
+  },
+  {
+   "t": "2026-10-24 02:00:00-0500",
+   "demand_mw": 46039,
+   "capacity_mw": 74893
   }
  ]
 }
