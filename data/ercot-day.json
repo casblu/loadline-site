@@ -1,8 +1,8 @@
 {
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-10-24 18:40:00-0500",
- "fetched_at": "2026-10-24T23:41:05+00:00",
+ "source_updated_at": "2026-10-24 19:55:00-0500",
+ "fetched_at": "2026-10-25T01:00:01+00:00",
  "unit": "MW",
  "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
  "points": [
@@ -1130,6 +1130,81 @@
    "t": "2026-10-24 18:40:00-0500",
    "demand_mw": 59502,
    "capacity_mw": 73897
+  },
+  {
+   "t": "2026-10-24 18:45:00-0500",
+   "demand_mw": 59282,
+   "capacity_mw": 73542
+  },
+  {
+   "t": "2026-10-24 18:50:00-0500",
+   "demand_mw": 59484,
+   "capacity_mw": 73376
+  },
+  {
+   "t": "2026-10-24 18:55:00-0500",
+   "demand_mw": 59301,
+   "capacity_mw": 73474
+  },
+  {
+   "t": "2026-10-24 19:00:00-0500",
+   "demand_mw": 59339,
+   "capacity_mw": 73469
+  },
+  {
+   "t": "2026-10-24 19:05:00-0500",
+   "demand_mw": 59386,
+   "capacity_mw": 73587
+  },
+  {
+   "t": "2026-10-24 19:10:00-0500",
+   "demand_mw": 59445,
+   "capacity_mw": 73456
+  },
+  {
+   "t": "2026-10-24 19:15:00-0500",
+   "demand_mw": 59265,
+   "capacity_mw": 73590
+  },
+  {
+   "t": "2026-10-24 19:20:00-0500",
+   "demand_mw": 59104,
+   "capacity_mw": 73902
+  },
+  {
+   "t": "2026-10-24 19:25:00-0500",
+   "demand_mw": 58941,
+   "capacity_mw": 74039
+  },
+  {
+   "t": "2026-10-24 19:30:00-0500",
+   "demand_mw": 58864,
+   "capacity_mw": 74153
+  },
+  {
+   "t": "2026-10-24 19:35:00-0500",
+   "demand_mw": 58769,
+   "capacity_mw": 74004
+  },
+  {
+   "t": "2026-10-24 19:40:00-0500",
+   "demand_mw": 58633,
+   "capacity_mw": 74025
+  },
+  {
+   "t": "2026-10-24 19:45:00-0500",
+   "demand_mw": 58257,
+   "capacity_mw": 73940
+  },
+  {
+   "t": "2026-10-24 19:50:00-0500",
+   "demand_mw": 58162,
+   "capacity_mw": 74193
+  },
+  {
+   "t": "2026-10-24 19:55:00-0500",
+   "demand_mw": 58082,
+   "capacity_mw": 74338
   }
  ]
 }
