@@ -1,15 +1,15 @@
 {
- "fetched_at": "2026-11-06T16:05:57+00:00",
+ "fetched_at": "2026-11-06T17:10:42+00:00",
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-11-06 10:00:00-0600",
- "demand_mw": 52068,
- "capacity_mw": 85169,
- "interval_timestamp": "2026-11-06 10:00:00-0600",
- "prc_mw": "19,891",
+ "source_updated_at": "2026-11-06 11:10:00-0600",
+ "demand_mw": 53320,
+ "capacity_mw": 86584,
+ "interval_timestamp": "2026-11-06 11:10:00-0600",
+ "prc_mw": "20,372",
  "condition_title": "Normal Conditions",
  "condition_note": "There is enough power for current demand.",
  "eea_level": 0,
- "prc_updated_at": "2026-11-06 10:05:34-0600",
+ "prc_updated_at": "2026-11-06 11:10:34-0600",
  "note": "System-wide grid figures only. Data-center load is not metered separately in this feed."
 }
