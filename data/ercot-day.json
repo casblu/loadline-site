@@ -1,8 +1,8 @@
 {
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-11-09 00:20:00-0600",
- "fetched_at": "2026-11-09T06:25:32+00:00",
+ "source_updated_at": "2026-11-09 02:35:00-0600",
+ "fetched_at": "2026-11-09T08:40:14+00:00",
  "unit": "MW",
  "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
  "points": [
@@ -30,6 +30,141 @@
    "t": "2026-11-09 00:20:00-0600",
    "demand_mw": 44702,
    "capacity_mw": 66219
+  },
+  {
+   "t": "2026-11-09 00:25:00-0600",
+   "demand_mw": 44666,
+   "capacity_mw": 66208
+  },
+  {
+   "t": "2026-11-09 00:30:00-0600",
+   "demand_mw": 44574,
+   "capacity_mw": 66286
+  },
+  {
+   "t": "2026-11-09 00:35:00-0600",
+   "demand_mw": 44495,
+   "capacity_mw": 66307
+  },
+  {
+   "t": "2026-11-09 00:40:00-0600",
+   "demand_mw": 44223,
+   "capacity_mw": 66401
+  },
+  {
+   "t": "2026-11-09 00:45:00-0600",
+   "demand_mw": 44118,
+   "capacity_mw": 65987
+  },
+  {
+   "t": "2026-11-09 00:50:00-0600",
+   "demand_mw": 44072,
+   "capacity_mw": 65884
+  },
+  {
+   "t": "2026-11-09 00:55:00-0600",
+   "demand_mw": 43979,
+   "capacity_mw": 65945
+  },
+  {
+   "t": "2026-11-09 01:00:00-0600",
+   "demand_mw": 43789,
+   "capacity_mw": 66092
+  },
+  {
+   "t": "2026-11-09 01:05:00-0600",
+   "demand_mw": 43739,
+   "capacity_mw": 66384
+  },
+  {
+   "t": "2026-11-09 01:10:00-0600",
+   "demand_mw": 43601,
+   "capacity_mw": 66329
+  },
+  {
+   "t": "2026-11-09 01:15:00-0600",
+   "demand_mw": 43535,
+   "capacity_mw": 66386
+  },
+  {
+   "t": "2026-11-09 01:20:00-0600",
+   "demand_mw": 43420,
+   "capacity_mw": 66390
+  },
+  {
+   "t": "2026-11-09 01:25:00-0600",
+   "demand_mw": 43397,
+   "capacity_mw": 66482
+  },
+  {
+   "t": "2026-11-09 01:30:00-0600",
+   "demand_mw": 43235,
+   "capacity_mw": 66461
+  },
+  {
+   "t": "2026-11-09 01:35:00-0600",
+   "demand_mw": 43168,
+   "capacity_mw": 66451
+  },
+  {
+   "t": "2026-11-09 01:40:00-0600",
+   "demand_mw": 43156,
+   "capacity_mw": 66689
+  },
+  {
+   "t": "2026-11-09 01:45:00-0600",
+   "demand_mw": 43138,
+   "capacity_mw": 66808
+  },
+  {
+   "t": "2026-11-09 01:50:00-0600",
+   "demand_mw": 43031,
+   "capacity_mw": 66799
+  },
+  {
+   "t": "2026-11-09 01:55:00-0600",
+   "demand_mw": 42953,
+   "capacity_mw": 66814
+  },
+  {
+   "t": "2026-11-09 02:00:00-0600",
+   "demand_mw": 42923,
+   "capacity_mw": 66757
+  },
+  {
+   "t": "2026-11-09 02:05:00-0600",
+   "demand_mw": 43018,
+   "capacity_mw": 66867
+  },
+  {
+   "t": "2026-11-09 02:10:00-0600",
+   "demand_mw": 42934,
+   "capacity_mw": 66866
+  },
+  {
+   "t": "2026-11-09 02:15:00-0600",
+   "demand_mw": 43020,
+   "capacity_mw": 66819
+  },
+  {
+   "t": "2026-11-09 02:20:00-0600",
+   "demand_mw": 42908,
+   "capacity_mw": 66783
+  },
+  {
+   "t": "2026-11-09 02:25:00-0600",
+   "demand_mw": 42902,
+   "capacity_mw": 66800
+  },
+  {
+   "t": "2026-11-09 02:30:00-0600",
+   "demand_mw": 42650,
+   "capacity_mw": 66768
+  },
+  {
+   "t": "2026-11-09 02:35:00-0600",
+   "demand_mw": 42837,
+   "capacity_mw": 66820
   }
  ]
 }
