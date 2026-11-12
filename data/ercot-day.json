@@ -1,8 +1,8 @@
 {
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-11-12 09:10:00-0600",
- "fetched_at": "2026-11-12T15:14:50+00:00",
+ "source_updated_at": "2026-11-12 10:20:00-0600",
+ "fetched_at": "2026-11-12T16:23:54+00:00",
  "unit": "MW",
  "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
  "points": [
@@ -560,6 +560,76 @@
    "t": "2026-11-12 09:10:00-0600",
    "demand_mw": 49803,
    "capacity_mw": 86748
+  },
+  {
+   "t": "2026-11-12 09:15:00-0600",
+   "demand_mw": 49993,
+   "capacity_mw": 86899
+  },
+  {
+   "t": "2026-11-12 09:20:00-0600",
+   "demand_mw": 50068,
+   "capacity_mw": 86993
+  },
+  {
+   "t": "2026-11-12 09:25:00-0600",
+   "demand_mw": 50029,
+   "capacity_mw": 86477
+  },
+  {
+   "t": "2026-11-12 09:30:00-0600",
+   "demand_mw": 50178,
+   "capacity_mw": 86584
+  },
+  {
+   "t": "2026-11-12 09:35:00-0600",
+   "demand_mw": 50082,
+   "capacity_mw": 86451
+  },
+  {
+   "t": "2026-11-12 09:40:00-0600",
+   "demand_mw": 50176,
+   "capacity_mw": 86380
+  },
+  {
+   "t": "2026-11-12 09:45:00-0600",
+   "demand_mw": 50167,
+   "capacity_mw": 86314
+  },
+  {
+   "t": "2026-11-12 09:50:00-0600",
+   "demand_mw": 50233,
+   "capacity_mw": 85976
+  },
+  {
+   "t": "2026-11-12 09:55:00-0600",
+   "demand_mw": 50285,
+   "capacity_mw": 86221
+  },
+  {
+   "t": "2026-11-12 10:00:00-0600",
+   "demand_mw": 50274,
+   "capacity_mw": 86076
+  },
+  {
+   "t": "2026-11-12 10:05:00-0600",
+   "demand_mw": 50371,
+   "capacity_mw": 86240
+  },
+  {
+   "t": "2026-11-12 10:10:00-0600",
+   "demand_mw": 50521,
+   "capacity_mw": 86187
+  },
+  {
+   "t": "2026-11-12 10:15:00-0600",
+   "demand_mw": 50626,
+   "capacity_mw": 86016
+  },
+  {
+   "t": "2026-11-12 10:20:00-0600",
+   "demand_mw": 50721,
+   "capacity_mw": 85946
   }
  ]
 }
