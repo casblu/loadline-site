@@ -1,8 +1,8 @@
 {
  "source": "ERCOT public dashboards (supply-demand.json, daily-prc.json)",
  "source_url": "https://www.ercot.com/gridmktinfo/dashboards",
- "source_updated_at": "2026-11-12 07:30:00-0600",
- "fetched_at": "2026-11-12T13:35:25+00:00",
+ "source_updated_at": "2026-11-12 09:10:00-0600",
+ "fetched_at": "2026-11-12T15:14:50+00:00",
  "unit": "MW",
  "note": "Actual (non-forecast) 5-minute system demand and capacity for the current ERCOT operating day, as published.",
  "points": [
@@ -460,6 +460,106 @@
    "t": "2026-11-12 07:30:00-0600",
    "demand_mw": 48666,
    "capacity_mw": 66884
+  },
+  {
+   "t": "2026-11-12 07:35:00-0600",
+   "demand_mw": 48786,
+   "capacity_mw": 68426
+  },
+  {
+   "t": "2026-11-12 07:40:00-0600",
+   "demand_mw": 48575,
+   "capacity_mw": 69311
+  },
+  {
+   "t": "2026-11-12 07:45:00-0600",
+   "demand_mw": 48799,
+   "capacity_mw": 70289
+  },
+  {
+   "t": "2026-11-12 07:50:00-0600",
+   "demand_mw": 48810,
+   "capacity_mw": 71273
+  },
+  {
+   "t": "2026-11-12 07:55:00-0600",
+   "demand_mw": 48965,
+   "capacity_mw": 72658
+  },
+  {
+   "t": "2026-11-12 08:00:00-0600",
+   "demand_mw": 48875,
+   "capacity_mw": 72260
+  },
+  {
+   "t": "2026-11-12 08:05:00-0600",
+   "demand_mw": 49240,
+   "capacity_mw": 73489
+  },
+  {
+   "t": "2026-11-12 08:10:00-0600",
+   "demand_mw": 49458,
+   "capacity_mw": 74874
+  },
+  {
+   "t": "2026-11-12 08:15:00-0600",
+   "demand_mw": 49483,
+   "capacity_mw": 76832
+  },
+  {
+   "t": "2026-11-12 08:20:00-0600",
+   "demand_mw": 49209,
+   "capacity_mw": 78429
+  },
+  {
+   "t": "2026-11-12 08:25:00-0600",
+   "demand_mw": 49348,
+   "capacity_mw": 80448
+  },
+  {
+   "t": "2026-11-12 08:30:00-0600",
+   "demand_mw": 49319,
+   "capacity_mw": 82122
+  },
+  {
+   "t": "2026-11-12 08:35:00-0600",
+   "demand_mw": 49521,
+   "capacity_mw": 83627
+  },
+  {
+   "t": "2026-11-12 08:40:00-0600",
+   "demand_mw": 49598,
+   "capacity_mw": 84681
+  },
+  {
+   "t": "2026-11-12 08:45:00-0600",
+   "demand_mw": 49646,
+   "capacity_mw": 85555
+  },
+  {
+   "t": "2026-11-12 08:50:00-0600",
+   "demand_mw": 49758,
+   "capacity_mw": 85907
+  },
+  {
+   "t": "2026-11-12 08:55:00-0600",
+   "demand_mw": 49775,
+   "capacity_mw": 86316
+  },
+  {
+   "t": "2026-11-12 09:00:00-0600",
+   "demand_mw": 49792,
+   "capacity_mw": 86341
+  },
+  {
+   "t": "2026-11-12 09:05:00-0600",
+   "demand_mw": 49753,
+   "capacity_mw": 86667
+  },
+  {
+   "t": "2026-11-12 09:10:00-0600",
+   "demand_mw": 49803,
+   "capacity_mw": 86748
   }
  ]
 }
