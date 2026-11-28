@@ -1123,5 +1123,38 @@
  },
  "YTL Green Data Centers, Kulai, Johor, Malaysia": {
   "none": true
+ },
+ "2 Rue de la Libération, 91680": {
+  "lat": 48.5985479,
+  "lon": 2.1952217,
+  "class": "building",
+  "type": "yes",
+  "addresstype": "building",
+  "display": "La Lisière - lieu de création artistique, 2, Rue de la Libération, Bruyères-le-Châtel, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91680, France",
+  "geocoded_on": "2026-11-28"
+ },
+ "1414 Farm to Market Rd 54, Abernathy, TX 79311": {
+  "none": true
+ },
+ "Abernathy, TX, United States": {
+  "lat": 33.8323812,
+  "lon": -101.8430151,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "village",
+  "display": "Abernathy, Hale County, Texas, 79311, United States",
+  "geocoded_on": "2026-11-28"
+ },
+ "PM7P+P3, St. Francisville, LA 70775": {
+  "none": true
+ },
+ "St. Francisville, LA, United States": {
+  "lat": 30.7807244,
+  "lon": -91.3763353,
+  "class": "boundary",
+  "type": "administrative",
+  "addresstype": "town",
+  "display": "St. Francisville, West Feliciana Parish, Louisiana, United States",
+  "geocoded_on": "2026-11-28"
  }
 }
